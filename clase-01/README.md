@@ -61,3 +61,12 @@ git diff
 ```sh
 git diff --staged # Que depende donde están las modificaciones es la referencia
 ```
+
+## Para sacar de la zona de SA
+
+```sh
+git restore --staged <nombre-archivo>
+git restore --staged clase-01/_ref/areas.excalidraw # saco un archivo
+git restore --staged . # saco todos los archivos
+git restore --staged clase-01/* # saco los archivos del directorio
+```
