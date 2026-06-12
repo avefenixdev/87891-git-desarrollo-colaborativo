@@ -80,3 +80,11 @@ git restore clase-01/_ref/areas.excalidraw
 
 ## .gitignore (Me permite descartar archivos -> ignorarlos)
 Son archivos que no quiero que formen parte del repositorio. Se crea manualmente dentro del directorio raíz del proyecto.
+
+## Para recuperar archivos del pasado y traerlos al presente
+
+```sh
+git restore --source=<hash> <nombre-archivo>
+git restore --source=3549e clase-01/README.md # versión antigua del archivo
+git restore --source=3549e . # todos los archivos en la versión de ese commit
+```
