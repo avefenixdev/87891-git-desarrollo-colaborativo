@@ -76,4 +76,7 @@ git restore --staged clase-01/* # saco los archivos del directorio
 ```sh
 git restore . # recupero todos los archivos a la última versión que está dentro del repo
 git restore clase-01/_ref/areas.excalidraw
-```  
+```
+
+## .gitignore (Me permite descartar archivos -> ignorarlos)
+Son archivos que no quiero que formen parte del repositorio. Se crea manualmente dentro del directorio raíz del proyecto.
