@@ -70,3 +70,10 @@ git restore --staged clase-01/_ref/areas.excalidraw # saco un archivo
 git restore --staged . # saco todos los archivos
 git restore --staged clase-01/* # saco los archivos del directorio
 ```
+
+## Recupero versiones anteriores de archivos que están dentro del repositorio local
+
+```sh
+git restore . # recupero todos los archivos a la última versión que está dentro del repo
+git restore clase-01/_ref/areas.excalidraw
+```  
