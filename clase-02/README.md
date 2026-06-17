@@ -47,3 +47,10 @@ git switch -c feature/branches
 git diff feature/branches # Estando en main
 git diff main # Estando en feature/branches
 ```
+
+# Fusiones entre ramas
+
+## 3 formas que git va a realizar la fusión
+
+* Fast-forward -> Git resuelve por nosotros todo. Lo hace automaticamente.
+* Triple vía -> Git resuelve por nosotros todo. Lo hace automaticamente. (Git crea un commit intermedio)
