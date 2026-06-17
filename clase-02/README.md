@@ -40,3 +40,10 @@ git branch -d feature/branches
 git switch -c <nombre-rama>
 git switch -c feature/branches
 ```
+
+## Ver diferencias entre ramas
+
+```sh
+git diff feature/branches # Estando en main
+git diff main # Estando en feature/branches
+```
