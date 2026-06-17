@@ -54,3 +54,4 @@ git diff main # Estando en feature/branches
 
 * Fast-forward -> Git resuelve por nosotros todo. Lo hace automaticamente.
 * Triple vía -> Git resuelve por nosotros todo. Lo hace automaticamente. (Git crea un commit intermedio)
+* Conflicto -> Git no puede saber que cambios son los que quiero dejar y entra en conflicto. Manualmente. El desarrollo o desarrolladores tienen que ayudar a git a resolver el conflicto.
