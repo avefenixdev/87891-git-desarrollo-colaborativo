@@ -88,3 +88,10 @@ git restore --source=<hash> <nombre-archivo>
 git restore --source=3549e clase-01/README.md # versión antigua del archivo
 git restore --source=3549e . # todos los archivos en la versión de ese commit
 ```
+
+## Como puedo saber que cambios hay dentro de un commit
+
+```sh
+git show <hash>
+git show 6fe6
+```
