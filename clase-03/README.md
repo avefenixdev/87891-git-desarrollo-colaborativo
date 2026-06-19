@@ -51,3 +51,7 @@ git show stash@{0}
 ```sh
 git stash -m "Mesaje descriptivo"
 ```
+
+# Extensión de Visual Studio Code
+
+- GitLens <eamodio.gitlens>
