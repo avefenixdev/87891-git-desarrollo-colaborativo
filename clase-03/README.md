@@ -45,3 +45,9 @@ git stash apply 2
 ```sh
 git show stash@{0}
 ```
+
+## Colocarle un mensaje descriptivo al stash
+
+```sh
+git stash -m "Mesaje descriptivo"
+```
