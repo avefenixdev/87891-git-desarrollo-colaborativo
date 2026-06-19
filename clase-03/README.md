@@ -18,6 +18,30 @@ git stash list
 
 ## Recuperar el último stash
 
+El pop recupera el último stash y si no hay conflicto lo elimina.
+
 ```sh
 git stash pop
+```
+
+## Borrar un stash
+
+```sh
+git stash drop <numero-stash>
+git stash drop 1
+```
+
+## Aplicar un stash en particular
+
+Aplicar el stash elegido y no lo elimina.
+
+```sh
+git stash apply <numero-stash>
+git stash apply 2
+```
+
+## Mostrar el contenido del stash
+
+```sh
+git show stash@{0}
 ```
